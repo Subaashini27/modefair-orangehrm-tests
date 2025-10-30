@@ -2,7 +2,7 @@
 
 A comprehensive Playwright + TypeScript test automation suite for OrangeHRM Open Source Demo, implementing Object-Oriented Programming (OOP), Page Object Model (POM), and maintainable test design patterns.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -16,7 +16,7 @@ A comprehensive Playwright + TypeScript test automation suite for OrangeHRM Open
 - [Business Scenario](#business-scenario)
 - [Assumptions & Notes](#assumptions--notes)
 
-## 🎯 Overview
+##  Overview
 
 This test suite automates an end-to-end HR workflow on the [OrangeHRM Demo Site](https://opensource-demo.orangehrmlive.com/) covering:
 
@@ -25,7 +25,7 @@ This test suite automates an end-to-end HR workflow on the [OrangeHRM Demo Site]
 3. **Supervisor** - Approve leave requests
 4. **Admin** - Verify approved leaves and validate data
 
-## ✨ Features
+##  Features
 
 - ✅ **TypeScript with strict mode** - Full type safety
 - ✅ **Page Object Model (POM)** - Maintainable page abstractions
@@ -38,7 +38,7 @@ This test suite automates an end-to-end HR workflow on the [OrangeHRM Demo Site]
 - ✅ **HTML Reports** - Comprehensive test reporting with traces on retry
 - ✅ **Prettier Formatting** - Consistent code style
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 modefair-orangehrm-tests/
@@ -83,7 +83,7 @@ modefair-orangehrm-tests/
 - **npm** - v9 or higher
 - **Git** - For cloning the repository
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -101,7 +101,7 @@ modefair-orangehrm-tests/
    npx playwright install
    ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -160,7 +160,7 @@ npx playwright test src/tests/admin.create-employee.spec.ts
 npx playwright test --grep "Admin"
 ```
 
-## 📊 Test Reports
+##  Test Reports
 
 ### View HTML report
 After test execution:
@@ -179,7 +179,7 @@ The HTML report includes:
 - HTML Report: `playwright-report/index.html`
 - Test Results: `test-results/`
 
-## 🏗️ Design Patterns
+##  Design Patterns
 
 ### 1. Page Object Model (POM)
 Each page/module has a dedicated class encapsulating:
@@ -280,7 +280,7 @@ Role-based authenticated contexts:
 - ✅ Meaningful test names and assertions
 - ✅ Screenshots and traces on failure/retry
 
-## 🧪 Test Execution Strategy
+##  Test Execution Strategy
 
 ### Recommended Order
 Tests should be executed in sequence for the full end-to-end workflow:
