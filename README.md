@@ -294,7 +294,7 @@ Tests should be executed in sequence for the full end-to-end workflow:
 ### Parallel Execution
 Tests can be run in parallel with `fullyParallel: false` for the Admin tests that create shared data, and `fullyParallel: true` for independent verification tests.
 
-## 🐛 Debugging
+##  Debugging
 
 ### Debug a specific test
 ```bash
@@ -306,22 +306,10 @@ npx playwright test src/tests/admin.create-employee.spec.ts --debug
 npx playwright show-trace test-results/<test-name>/trace.zip
 ```
 
-## 🎨 Code Formatting
+## Code Formatting
 
 Format all code:
 ```bash
 npm run format
 ```
 
-## 📧 Support
-
-For questions or issues, please refer to:
-- [Playwright Documentation](https://playwright.dev/)
-- [OrangeHRM Demo Site](https://opensource-demo.orangehrmlive.com/)
-
----
-
-**Assessment Delivered by**: [Your Name]  
-**Date**: October 28, 2025  
-**Time Spent**: 4-6 hours  
-**Technology Stack**: Playwright v1.40, TypeScript v5.3, Node.js v18+
