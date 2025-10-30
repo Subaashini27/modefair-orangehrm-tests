@@ -87,7 +87,7 @@ modefair-orangehrm-tests/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Subaashini27/modefair-orangehrm
    cd modefair-orangehrm-tests
    ```
 
@@ -133,7 +133,7 @@ The `playwright.config.ts` includes:
 - Video retention on failure
 - HTML reporter
 
-## 🚀 Running Tests
+##  Running Tests
 
 ### Run all tests
 ```bash
